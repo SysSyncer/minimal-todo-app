@@ -1,0 +1,61 @@
+.to-do-list {
+    border: 1px solid #0007;
+    max-width: fit-content;
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-family: monospace;
+}
+
+.to-do-list h1{
+    text-decoration: underline;
+}
+
+.add-button {
+    font-family: monospace;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+    transition: all 135ms ease-in-out;
+}
+
+.add-button:hover {
+    background-color: #eee;
+    color: #000;
+    transition: all 135ms ease-in-out;
+}
+
+.to-do-list li span {
+    cursor: pointer;
+}
+
+.to-do-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+    gap: 20px;
+    cursor: default;
+    margin-bottom: 10px;
+}
+
+.to-do-list ol {
+    padding: 0;
+    list-style: none;
+}
+
+.mod-btn {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 135ms ease-in-out;
+}
+
+.mod-btn:hover {
+    border: 1px solid #0007;
+    color: #0007;
+    transition: all 135ms ease-in-out;
+}
